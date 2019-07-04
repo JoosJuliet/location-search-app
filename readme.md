@@ -18,16 +18,22 @@ https://youtu.be/GvMzoa5khSY
 - 이름: user2
 - 비밀번호: password
 
-앞단의 경우 http://localhost:3000/login 으로 접속해 로그인 하실 수 있습니다.  
-뒷단은 http://localhost:8000 으로 접속하실 수 있습니다.
 
-# 프론트 엔드
+# 환경셋팅
+FRONT -> React
+BACK -> Spring-Boot
+
+
+## 프론트 엔드
 
 ./frontend/package.json이 존재하는 프로젝트 경로 내에서
 
 ``` shell
 npm install && npm start
 ```
+
+앞단의 경우 **http://localhost:3000/login** 으로 접속해 로그인 하실 수 있습니다.  
+
 
 # 백엔드
 
@@ -37,3 +43,6 @@ npm install && npm start
 java -jar ./locationsearch-0.0.1-SNAPSHOT.jar
 ```
 ![jar 파일 다운로드 링크](https://github.com/JoosJuliet/location-search-app/raw/master/locationsearch-0.0.1-SNAPSHOT.jar)
+
+
+뒷단은 http://localhost:8080 으로 접속하실 수 있습니다.
